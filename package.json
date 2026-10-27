@@ -5,10 +5,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "npx serve",
-    "tailwind": "npx @tailwindcss/cli -i ./assets/styles/main.css -o ./dist/style.css --watch",
-    "test": "playwright test --config=.teaching/playwright.config.ts",
-    "submit-dry": "tsx .teaching/submit.ts --dry-run",
-    "submit": "tsx .teaching/submit.ts"
+    "tailwind": "npx @tailwindcss/cli -i ./assets/styles/main.css -o ./dist/style.css --watch"
   },
   "keywords": [],
   "author": "Romain Divandary",
