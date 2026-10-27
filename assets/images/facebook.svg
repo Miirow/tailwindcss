@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.090196 0 0 0 0 0.227451 0 0 0 0 0.352941 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-117.000000, -1588.000000)">
+            <g id="Group-16" transform="translate(0.000000, 1164.000000)">
+                <g id="Group" transform="translate(117.000000, 424.000000)" filter="url(#filter-1)">
+                    <g>
+                        <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                        <path d="M13.397,20.997 L13.397,12.801 L16.162,12.801 L16.573,9.592 L13.397,9.592 L13.397,7.548 C13.397,6.622 13.655,5.988 14.984,5.988 L16.668,5.988 L16.668,3.127 C15.8486943,3.03849585 15.0250629,2.9960957 14.201,3 C11.757,3 10.079,4.492 10.079,7.231 L10.079,9.586 L7.332,9.586 L7.332,12.795 L10.085,12.795 L10.085,20.997 L13.397,20.997 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

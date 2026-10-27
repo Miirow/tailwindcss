@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.090196 0 0 0 0 0.227451 0 0 0 0 0.352941 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-213.000000, -1589.000000)">
+            <g id="Group-16" transform="translate(0.000000, 1164.000000)">
+                <g id="Group" transform="translate(117.000000, 424.000000)" filter="url(#filter-1)">
+                    <g transform="translate(96.000000, 1.000000)">
+                        <polygon id="Path" points="0 0 23 0 23 23 0 23"></polygon>
+                        <path d="M13.11,10.1775 L19.3966667,2.875 L17.91125,2.875 L12.4583333,9.21916667 L8.09791667,2.875 L3.05708333,2.875 L9.65041667,12.4679167 L3.05708333,20.125 L4.5425,20.125 L10.3020833,13.42625 L14.9020833,20.125 L19.92375,20.125 L13.0908333,10.1775 L13.11,10.1775 Z M11.06875,12.5445833 L10.3979167,11.58625 L5.08875,3.98666667 L7.37916667,3.98666667 L11.6629167,10.12 L12.33375,11.0783333 L17.91125,19.0516667 L15.6208333,19.0516667 L11.06875,12.5445833 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
