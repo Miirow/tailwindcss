@@ -1,319 +1,100 @@
 <!doctype html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Exercice n°3</title>
-    <link href="../dist/style.css"
-          rel="stylesheet">
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        .profile-page {
-            width: 100%;
-            min-height: 100vh;
-            padding: 3rem 1.5rem;
-            background: #f1f5f9;
-        }
-
-        .profile-page__container {
-            max-width: 42rem;
-            margin: 0 auto;
-        }
-
-        .profile-card {
-            overflow: hidden;
-            border: 1px solid #e2e8f0;
-            border-radius: 1rem;
-            background: #ffffff;
-            box-shadow: 0 10px 15px -3px rgba(15, 23, 42, 0.15), 0 4px 6px -4px rgba(15, 23, 42, 0.2);
-        }
-
-        .profile-card__header {
-            padding: 2.5rem 2rem;
-            text-align: center;
-            background: #0f172a;
-        }
-
-        .profile-card__avatar {
-            width: 6rem;
-            height: 6rem;
-            margin: 0 auto;
-            border-radius: 9999px;
-            border: 4px solid #ffffff;
-            display: block;
-        }
-
-        .profile-card__name {
-            margin: 1rem 0 0;
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: #ffffff;
-        }
-
-        .profile-card__role {
-            margin: 0.25rem 0 0;
-            color: #94a3b8;
-        }
-
-        .profile-card__content {
-            padding: 2rem;
-        }
-
-        .profile-card__content > * + * {
-            margin-top: 2rem;
-        }
-
-        .profile-card__stats {
-            padding: 1.5rem;
-            border-radius: 0.75rem;
-            background: #f8fafc;
-        }
-
-        .profile-card__section-title {
-            margin: 0 0 1rem;
-            font-size: 1.125rem;
-            font-weight: 700;
-            color: #0f172a;
-        }
-
-        .profile-card__section-title--small-gap {
-            margin-bottom: 0.75rem;
-        }
-
-        .profile-card__stats-list > * + * {
-            margin-top: 1rem;
-        }
-
-        .profile-card__stat-item {
-            padding-bottom: 1rem;
-            border-bottom: 1px solid #e2e8f0;
-        }
-
-        .profile-card__stat-item:last-child {
-            padding-bottom: 0;
-            border-bottom: 0;
-        }
-
-        .profile-card__stat-value {
-            margin: 0;
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: #334155;
-        }
-
-        .profile-card__stat-label,
-        .profile-card__info-label {
-            margin: 0;
-            font-size: 0.875rem;
-            color: #64748b;
-        }
-
-        .profile-card__about-text {
-            margin: 0;
-            line-height: 1.625;
-            color: #475569;
-        }
-
-        .profile-card__info-list > * + * {
-            margin-top: 1rem;
-        }
-
-        .profile-card__info-label {
-            font-weight: 500;
-        }
-
-        .profile-card__info-value {
-            margin: 0.25rem 0 0;
-            color: #0f172a;
-        }
-
-        .profile-card__status {
-            display: inline-block;
-            margin-top: 0.5rem;
-            padding: 0.25rem 0.75rem;
-            border-radius: 9999px;
-            font-size: 0.875rem;
-            font-weight: 500;
-            color: #15803d;
-            background: #dcfce7;
-        }
-
-        .profile-card__skills {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-        }
-
-        .profile-card__skill {
-            display: inline-block;
-            padding: 0.25rem 0.75rem;
-            border-radius: 9999px;
-            font-size: 0.875rem;
-            font-weight: 500;
-            color: #1e40af;
-            background: #dbeafe;
-        }
-
-        .profile-card__button {
-            width: 100%;
-            padding: 0.75rem 1.5rem;
-            border: 0;
-            border-radius: 0.5rem;
-            font-weight: 700;
-            color: #ffffff;
-            background: #1e293b;
-            box-shadow: 0 1px 2px rgba(15, 23, 42, 0.2);
-            cursor: pointer;
-        }
-    </style>
-</head>
-<body class="bg-slate-100 flex min-h-screen justify-center items-center">
-<main class="profile-page">
-    <div class="profile-page__container">
-        <div class="profile-card">
-
-            <!-- Header -->
-            <div class="profile-card__header">
-                <img
-                        src="https://i.pravatar.cc/160?img=12"
-                        alt="Sophie Martin"
-                        class="profile-card__avatar"
-                >
-
-                <h1 class="profile-card__name">
-                    John Doe
-                </h1>
-
-                <p class="profile-card__role">
-                    Product Designer
-                </p>
-            </div>
-
-            <!-- Content -->
-            <div class="profile-card__content">
-
-                <!-- Stats -->
-                <div class="profile-card__stats">
-                    <h2 class="profile-card__section-title">
-                        Statistiques
-                    </h2>
-
-                    <div class="profile-card__stats-list">
-                        <div class="profile-card__stat-item">
-                            <p class="profile-card__stat-value">
-                                128
-                            </p>
-                            <p class="profile-card__stat-label">
-                                Projets réalisés
-                            </p>
-                        </div>
-
-                        <div class="profile-card__stat-item">
-                            <p class="profile-card__stat-value">
-                                4.9 / 5
-                            </p>
-                            <p class="profile-card__stat-label">
-                                Note moyenne
-                            </p>
-                        </div>
-
-                        <div class="profile-card__stat-item">
-                            <p class="profile-card__stat-value">
-                                32
-                            </p>
-                            <p class="profile-card__stat-label">
-                                Avis clients
-                            </p>
-                        </div>
-                    </div>
+    <link href="../dist/style.css" rel="stylesheet" />
+  </head>
+  <body class="bg-slate-100 flex min-h-screen justify-center items-center">
+    <main class="py-12 px-6 w-full min-h-screen bg-slate-100">
+      <div class="mx-auto max-w-2xl">
+        <div
+          class="overflow-hidden border-[0.05rem] border-slate-200 rounded-2xl bg-white shadow-[0_0.625rem_0.938rem_-0.188rem_rgb(15_23_42_/_0.15),_0_0.25rem_0.375rem_-0.25rem_rgb(15_23_42_/_0.2)]"
+        >
+          <div class="py-10 px-8 bg-slate-900 text-center">
+            <img
+              class="block mx-auto w-24 h-24 max-w-full border-white rounded-full border-4"
+              alt="Sophie Martin"
+              src="https://i.pravatar.cc/160?img=12"
+            />
+            <h1 class="mt-4 text-white text-2xl font-bold">John Doe</h1>
+            <p class="mt-1 text-[#94a3b8]">Product Designer</p>
+          </div>
+          <div class="p-8">
+            <div class="p-6 rounded-xl bg-slate-50">
+              <h2 class="mb-4 text-[#0f172a] text-lg font-bold">
+                Statistiques
+              </h2>
+              <div>
+                <div class="pb-4 border-b-[0.05rem] border-slate-200">
+                  <p class="text-[#334155] text-2xl font-bold">128</p>
+                  <p class="text-[#64748b] text-sm">Projets réalisés</p>
                 </div>
-
-                <!-- About -->
-                <section>
-                    <h2 class="profile-card__section-title profile-card__section-title--small-gap">
-                        À propos
-                    </h2>
-
-                    <p class="profile-card__about-text">
-                        Je conçois des interfaces simples, accessibles et
-                        agréables à utiliser. J'accompagne les entreprises
-                        dans la création de leurs produits numériques.
-                    </p>
-                </section>
-
-                <!-- Informations -->
-                <section>
-                    <h2 class="profile-card__section-title">
-                        Informations
-                    </h2>
-
-                    <div class="profile-card__info-list">
-                        <div>
-                            <p class="profile-card__info-label">
-                                Localisation
-                            </p>
-                            <p class="profile-card__info-value">
-                                Paris, France
-                            </p>
-                        </div>
-
-                        <div>
-                            <p class="profile-card__info-label">
-                                Expérience
-                            </p>
-                            <p class="profile-card__info-value">
-                                8 ans
-                            </p>
-                        </div>
-
-                        <div>
-                            <p class="profile-card__info-label">
-                                Disponibilité
-                            </p>
-
-                            <span class="profile-card__status">
-                                Disponible
-                            </span>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Skills -->
-                <section>
-                    <h2 class="profile-card__section-title">
-                        Compétences
-                    </h2>
-
-                    <div class="profile-card__skills">
-                        <span class="profile-card__skill">
-                            UI Design
-                        </span>
-
-                        <span class="profile-card__skill">
-                            UX Design
-                        </span>
-
-                        <span class="profile-card__skill">
-                            Figma
-                        </span>
-
-                        <span class="profile-card__skill">
-                            Design System
-                        </span>
-                    </div>
-                </section>
-
-                <!-- Action -->
-                <button
-                        class="profile-card__button"
-                >
-                    Modifier le profil
-                </button>
+                <div class="pb-4 mt-4 border-b-[0.05rem] border-slate-200">
+                  <p class="text-[#334155] text-2xl font-bold">4.9 / 5</p>
+                  <p class="text-[#64748b] text-sm">Note moyenne</p>
+                </div>
+                <div class="mt-4">
+                  <p class="text-[#334155] text-2xl font-bold">32</p>
+                  <p class="text-[#64748b] text-sm">Avis clients</p>
+                </div>
+              </div>
             </div>
+            <section class="mt-8">
+              <h2 class="mb-3 text-[#0f172a] text-lg font-bold">À propos</h2>
+              <p class="text-[#475569] leading-relaxed">
+                Je conçois des interfaces simples, accessibles et agréables à
+                utiliser. J'accompagne les entreprises dans la création de leurs
+                produits numériques.
+              </p>
+            </section>
+            <section class="mt-8">
+              <h2 class="mb-4 text-[#0f172a] text-lg font-bold">
+                Informations
+              </h2>
+              <div>
+                <div>
+                  <p class="text-[#64748b] text-sm font-medium">Localisation</p>
+                  <p class="mt-1 text-[#0f172a]">Paris, France</p>
+                </div>
+                <div class="mt-4">
+                  <p class="text-[#64748b] text-sm font-medium">Expérience</p>
+                  <p class="mt-1 text-[#0f172a]">8 ans</p>
+                </div>
+                <div class="mt-4">
+                  <p class="text-[#64748b] text-sm font-medium">
+                    Disponibilité
+                  </p>
+                  <span
+                    class="inline-block py-1 px-3 mt-2 rounded-full text-green-700 bg-green-100 text-sm font-medium"
+                    >Disponible</span
+                  >
+                </div>
+              </div>
+            </section>
+            <section class="mt-8">
+              <h2 class="mb-4 text-[#0f172a] text-lg font-bold">Compétences</h2>
+              <div class="flex flex-wrap gap-2">
+                <span class="rounded-full bg-blue-100 text-blue-800"
+                  >UI Design</span
+                >
+                <span class="rounded-full bg-blue-100 text-blue-800"
+                  >UX Design</span
+                >
+                <span class="rounded-full bg-blue-100 text-blue-800"
+                  >Figma</span
+                >
+                <span class="rounded-full bg-blue-100 text-blue-800"
+                  >Design System</span
+                >
+              </div>
+            </section>
+            <button class="w-full bg-slate-800 text-white font-bold">
+              Modifier le profil
+            </button>
+          </div>
         </div>
-    </div>
-</main>
-</body>
+      </div>
+    </main>
+  </body>
 </html>
